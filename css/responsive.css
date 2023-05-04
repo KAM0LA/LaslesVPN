@@ -1,0 +1,66 @@
+@media (min-width: 900px) {
+  .nav-list {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+  .nav-end {
+    display: flex;
+  }
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-item {
+    display: flex;
+    align-items: center;
+  }
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 160px;
+  }
+  .pricing-box1,
+  .pricing-box2,
+  .pricing-box3 {
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  .map-container h1 {
+    max-width: 383px;
+    margin-left: 400px;
+  }
+  .map-container p {
+    max-width: 555px;
+    margin-left: 300px;
+  }
+  .supporters {
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+  }
+  .customers-container h1 {
+    max-width: 447px;
+    margin-left: 300px;
+  }
+  .customers-container p {
+    max-width: 555px;
+    margin-left: 250px;
+  }
+  .subscribe-card {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 300px;
+    align-items: center;
+  }
+  
+  .content h1 {
+    width: 371px;
+  }
+}

@@ -1,0 +1,9 @@
+.dark *{
+  background-color: black;
+}
+.dark #pricing{
+    background-color: black;
+}
+.dark * {
+  color: white !important;
+}
